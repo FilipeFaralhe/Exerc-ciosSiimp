@@ -1,0 +1,16 @@
+body {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.container::-webkit-scrollbar {
+    width: 6px;               /* width of the entire scrollbar */
+}
+
+div.container::-webkit-scrollbar-thumb {
+    background-color: #DBDADA;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+}

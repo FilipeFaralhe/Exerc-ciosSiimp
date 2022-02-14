@@ -1,0 +1,19 @@
+:root {
+    --green: #33CC95;
+    --red: #E52E4D;
+    --background: #F0F0F0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: var(--background);
+    -webkit-font-smoothing: antialiased;
+}

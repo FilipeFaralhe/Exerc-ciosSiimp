@@ -1,0 +1,66 @@
+div.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    max-width: 800px;
+    max-height: 600px;
+    margin: 1.5rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+
+    overflow:auto;
+    background: white;
+}
+
+div.card-exercises {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 300px;
+    height: 100px;
+    margin: 10px;
+
+    border-radius: 0.5rem;
+}
+
+div.card-exercises:hover {
+    filter: brightness(0.8);
+}
+
+a {
+    font: bold 1.5rem 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+/* COLOR CARDS */
+div.yellow {
+    background: #fbc531;
+}
+
+div.light-blue {
+    background: #00a8ff;
+}
+
+div.orange {
+    background: #f39c12;
+}
+
+div.purple {
+    background: #5f27cd;
+}
+
+div.red {
+    background: #EA2027;
+}
+
+div.imperial-primer {
+    background: #222f3e;
+}
+
+div.greenyellow {
+    background: greenyellow;
+}
