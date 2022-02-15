@@ -18,7 +18,7 @@ Caso de algum erro, necessário rodar o comando "composer update". Lembrando que
 Basta executar o comando "php artisan serve" para executar o projeto na sua máquina local. Caso de o erro 505 | Server Error, basta usar a solução abaixo:
 
 &nbsp;
-Caso não tenha o arquivo .env
+Execute o seguinte comando .env
 
 ~~~
 copy .env.exemple .env
