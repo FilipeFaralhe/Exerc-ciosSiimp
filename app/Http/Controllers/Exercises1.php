@@ -13,7 +13,6 @@ class Exercises1 extends Controller
         $placeholder = 'ex: Chocolate';
         $type = 'text';
         $routeSubmit = 'exercises1.store';
-        return view('exercises.exercisesString', compact('title', 'label', 'placeholder', 'routeSubmit', 'type'));
     }
 
     public function store() {
